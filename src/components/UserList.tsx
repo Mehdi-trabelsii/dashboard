@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 //setting up types for the User object
 interface Geo {
   lat: string;
@@ -56,7 +56,7 @@ export default function UserList() {
 
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     SetSearch(event.target.value);
-    console.log(search);
+   
   };
   //displaying users list in a table that turns into a grid of cards on smaller screens
   return (

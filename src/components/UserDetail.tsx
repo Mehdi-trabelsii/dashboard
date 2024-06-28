@@ -101,7 +101,7 @@ export default function UserDetail() {
           </tbody>
         </table>
       </div>
-      <MapContainer center={[Number(user.address.geo.lat),Number(user.address.geo.lng)]} zoom={13} style={{ height: '50vh', width: '60%'}}>
+      <MapContainer center={[Number(user.address.geo.lat),Number(user.address.geo.lng)]} zoom={3} style={{ height: '50vh', width: '60%'}}>
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
