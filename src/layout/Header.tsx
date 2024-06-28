@@ -1,7 +1,7 @@
 import NavItem from "../components/NavItem";
 //simple Header component 
 const navLinks = [
-  { title: "Users", iconURL: "/user.svg", link: "/users" },
+  { title: "Users", iconURL: "/user.svg", link: "/" },
   { title: "Stats", iconURL: "/area-chart.svg", link: "/" },
   { title: "Reports", iconURL: "/clipboard-plus.svg", link: "/" },
 ];
