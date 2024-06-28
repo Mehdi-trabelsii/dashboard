@@ -1,0 +1,16 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+
+  --green:60, 179, 113;
+  --sidebarItem:52, 64, 84;
+}
+#map { height: 180px; }
+
+leaflet-container {
+  width: 100wh; 
+  height: 100vh;
+}
